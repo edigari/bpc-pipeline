@@ -1,0 +1,7 @@
+# Dependências para execução LOCAL (run.sh). Versões fixadas = reprodução exata.
+# No Databricks NÃO é preciso instalar nada: requests e pyspark já vêm no runtime,
+# e python-dotenv não é usado lá (a chave vem do Databricks Secrets).
+requests==2.34.2
+python-dotenv==1.2.3
+pyspark==4.0.1      # requer Java 17 ou 21 instalado
+pytest==9.1.1       # testes (tests/)
